@@ -23,7 +23,7 @@ export default class AddOrderIdToOrdersProducts1610718420093
         name: 'OdersProductsOrder',
         columnNames: ['order_id'],
         referencedColumnNames: ['id'],
-        referencedTableName: 'products',
+        referencedTableName: 'orders',
         onDelete: 'SET NULL',
       }),
     );
